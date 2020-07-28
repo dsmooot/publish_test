@@ -1,0 +1,39 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="555" scrolly="402.5" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="578.134521484375" scrolly="421.8221130371094" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="dO?n;a?~52FHRAmfMK^Z" x="-570" y="-290">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="W:TEL6CLbgs_APnB[(}=">
+          <field name="FIELDNAME">Cube</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="applyObjLocalTransform" id="a]^/gln4Ia}*M;TAHC6l">
+          <field name="MODE">rotation</field>
+          <value name="TARGETOBJ">
+            <block type="objectList" id="|69J/^*]kz^e1^_sfNPA">
+              <field name="FIELDNAME">Cube</field>
+            </block>
+          </value>
+          <value name="X">
+            <block type="angle" id="vlk=]H9i(!cyX9t3F2xZ">
+              <field name="ANGLE">315</field>
+            </block>
+          </value>
+          <value name="Y">
+            <block type="angle" id="P~X[2`pu!B3jy,P_sXm.">
+              <field name="ANGLE">105</field>
+            </block>
+          </value>
+          <value name="Z">
+            <block type="angle" id="?uey[hGPLP$(@i;pb{TE">
+              <field name="ANGLE">30</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="750" viewport-y="28" viewport-w="512" viewport-h="440.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
